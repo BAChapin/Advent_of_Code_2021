@@ -11,31 +11,31 @@ Finally, this will be my only repo this year. Instead of having a repo for each 
 ### Organization
 ```
 /
-├─── day_1
+├─── Day_1
 │    ├─── first_half.py
 │    ├─── second_half.py
 │    └─── input.txt
-├─── day_2
+├─── Day_2
 │    ├─── first_half.py
 │    ├─── second_half.py
 │    └─── input.txt
-├─── day_3
+├─── Day_3
 │    ├─── first_half.py
 │    ├─── second_half.py
 │    └─── input.txt
 .
 .
 .
-└─── day_25
+└─── Day_25
      ├─── first_half.py
      ├─── second_half.py
      └─── input.txt
 ```
 ### Day's Completed
 
-| Day | Date/Time Completed | Description |
-| --- | ------------------- | ----------- |
-| 1 |  |  |
+| Day  | Date/Time Completed | Name                  |
+| :-:  | :-----------------: | :-------------------- |
+| 1    | 00:20               | Sonar Sweep           |
 
 ## Get Involved
 
