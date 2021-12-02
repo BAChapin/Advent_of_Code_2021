@@ -6,6 +6,7 @@ def generate_sums(lines: list):
         new_sum = new_list[index - 1] + new_list[index] + new_list[index + 1]
         sums.append(new_sum)
     else:
+        print(len(sums))
         return sums
 
 if __name__ == "__main__":
