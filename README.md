@@ -37,6 +37,7 @@ Finally, this will be my only repo this year. Instead of having a repo for each 
 | :-:  | :-----------------: | :-------------------- |
 | 1    | 00:20               | Sonar Sweep           |
 | 2    | 00:10               | Dive!                 |
+| 3    | 00:55               | Binary Diagnostic     |
 
 ## Get Involved
 
