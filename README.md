@@ -26,10 +26,12 @@ Finally, this will be my only repo this year. Instead of having a repo for each 
 .
 .
 .
-└─── Day_25
-     ├─── first_half.py
-     ├─── second_half.py
-     └─── input.txt
+├─── Day_25
+│    ├─── first_half.py
+│    ├─── second_half.py
+│    └─── input.txt
+│ 
+└─── helper.py
 ```
 ### Day's Completed
 
@@ -40,6 +42,7 @@ Finally, this will be my only repo this year. Instead of having a repo for each 
 | 3    | 00:55               | Binary Diagnostic     |
 | 4    | 23:42               | Giant Squid           |
 | 5    | 02:08               | Hydrothermal Venture  |
+| 6    | 00:48               | Lanternfish           |
 
 ## Get Involved
 
