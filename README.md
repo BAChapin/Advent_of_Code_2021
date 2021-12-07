@@ -35,14 +35,15 @@ Finally, this will be my only repo this year. Instead of having a repo for each 
 ```
 ### Day's Completed
 
-| Day  | Date/Time Completed | Name                  |
-| :-:  | :-----------------: | :-------------------- |
-| 1    | 00:20               | Sonar Sweep           |
-| 2    | 00:10               | Dive!                 |
-| 3    | 00:55               | Binary Diagnostic     |
-| 4    | 23:42               | Giant Squid           |
-| 5    | 02:08               | Hydrothermal Venture  |
-| 6    | 00:48               | Lanternfish           |
+| Day  | Date/Time Completed | Name                    |
+| :-:  | :-----------------: | :---------------------- |
+| 1    | Dec 1 - 00:20       | Sonar Sweep             |
+| 2    | Dec 2 - 00:10       | Dive!                   |
+| 3    | Dec 3 - 00:55       | Binary Diagnostic       |
+| 4    | Dec 4 - 23:42       | Giant Squid             |
+| 5    | Dec 5 - 02:08       | Hydrothermal Venture    |
+| 6    | Dec 6 - 00:48       | Lanternfish             |
+| 7    | Dec 7 - 08:25       | The Treachery of Whales |
 
 ## Get Involved
 
