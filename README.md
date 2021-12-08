@@ -44,6 +44,7 @@ Finally, this will be my only repo this year. Instead of having a repo for each 
 | 5    | Dec 5 - 02:08       | Hydrothermal Venture    |
 | 6    | Dec 6 - 00:48       | Lanternfish             |
 | 7    | Dec 7 - 08:25       | The Treachery of Whales |
+| 8    | Dec 8 - 02:46       | Seven Segment Search    |
 
 ## Get Involved
 
