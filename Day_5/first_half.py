@@ -1,6 +1,6 @@
 import sys
 sys.path.append("..")
-from helper import get_lines
+from helper import get_lines, time_func
 
 def get_points(line):
     points = line.split(" -> ")
@@ -20,7 +20,7 @@ def generate_point_array():
     else:
         return point_array
 
-if __name__ == "__main__":
+def process():
     lines = get_lines()
     point_array = generate_point_array()
 
@@ -53,3 +53,6 @@ if __name__ == "__main__":
                 overlapping_points += 1
 
     print("Answer: ", overlapping_points)
+
+if __name__ == "__main__":
+    time_func(process)

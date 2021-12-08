@@ -1,6 +1,6 @@
 import sys
 sys.path.append("..")
-from helper import get_lines
+from helper import get_lines, time_func
 
 def create_board(number, lines):
     numbers = dict()
@@ -61,7 +61,7 @@ def calculate_score(last_number, board):
         return running_total * last_number
 
 
-if __name__ == "__main__":
+def process():
     lines = get_lines()
     number_line = lines[0]
     called_numbers = number_line.split(",")
@@ -99,3 +99,5 @@ if __name__ == "__main__":
 
     print("Answer: ", calculate_score(last_called, bingo_board))
 
+if __name__ == "__main__":
+    time_func(process)
