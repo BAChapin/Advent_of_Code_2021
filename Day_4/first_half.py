@@ -1,4 +1,5 @@
 import sys
+from time import sleep
 sys.path.append("..")
 from helper import get_lines
 

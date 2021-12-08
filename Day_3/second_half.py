@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-from helper import time_func
 
 def split_lists(at_index, given_list, return_most):
     input_len = len(given_list)
@@ -26,7 +23,8 @@ def split_lists(at_index, given_list, return_most):
         elif most_common < (input_len / 2) and not return_most:
             return ones_list
 
-def process():
+
+if __name__ == "__main__":
     with open("input.txt", "r") as file:
         lines = file.readlines()
         oxygen_readings = lines
@@ -42,6 +40,3 @@ def process():
             oxygen = int(oxygen_readings[0], 2)
             co2 = int(co2_readings[0], 2)
             print("Life Support Rating: ", oxygen * co2)
-
-if __name__ == "__main__":
-    time_func(process)

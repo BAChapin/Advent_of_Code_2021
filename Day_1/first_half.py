@@ -1,8 +1,5 @@
-import sys
-sys.path.append("..")
-from helper import time_func
 
-def process():
+if __name__ == "__main__":
     with open("input.txt", "r") as file:
         lines = file.readlines()
         increase_num = 0
@@ -16,5 +13,4 @@ def process():
         else:
             print("Number of Increases: ", increase_num)
 
-if __name__ == "__main__":
-    time_func(process)
+
