@@ -1,5 +1,8 @@
+import sys
+sys.path.append("..")
+from helper import time_func
 
-if __name__ == "__main__":
+def process():
     with open("input.txt", "r") as file:
         lines = file.readlines()
         horizontal_position = 0
@@ -20,3 +23,6 @@ if __name__ == "__main__":
                 aim += units
         else:
             print("Puzzle Answer: ", horizontal_position * depth)
+
+if __name__ == "__main__":
+    time_func(process)
