@@ -14,14 +14,17 @@ Finally, this will be my only repo this year. Instead of having a repo for each 
 ├─── Day_1
 │    ├─── first_half.py
 │    ├─── second_half.py
+│    ├─── records.md
 │    └─── input.txt
 ├─── Day_2
 │    ├─── first_half.py
 │    ├─── second_half.py
+│    ├─── records.md
 │    └─── input.txt
 ├─── Day_3
 │    ├─── first_half.py
 │    ├─── second_half.py
+│    ├─── records.md
 │    └─── input.txt
 .
 .
@@ -29,6 +32,7 @@ Finally, this will be my only repo this year. Instead of having a repo for each 
 ├─── Day_25
 │    ├─── first_half.py
 │    ├─── second_half.py
+│    ├─── records.md
 │    └─── input.txt
 │ 
 └─── helper.py
