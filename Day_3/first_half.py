@@ -1,5 +1,8 @@
+import sys
+sys.path.append("..")
+from helper import time_func
 
-def process(lines, at_index):
+def find_commonalities(lines, at_index):
     threshold = len(lines) / 2
     most_common_pos = 0
 
@@ -12,14 +15,14 @@ def process(lines, at_index):
         else:
             return "0", "1"
 
-if __name__ == "__main__":
+def process():
     with open("input.txt", "r") as file:
         lines = file.readlines()
         most_common = ""
         least_common = ""
 
         for position in range(0, len(lines[0]) - 1):
-            most_common_pos, least_common_pos = process(lines, position)
+            most_common_pos, least_common_pos = find_commonalities(lines, position)
             most_common += most_common_pos
             least_common += least_common_pos
         else:
@@ -27,3 +30,5 @@ if __name__ == "__main__":
             decimal_epsilon = int(least_common, 2)
             print("Answer: ", decimal_epsilon * decimal_gamma)
 
+if __name__ == "__main__":
+    time_func(process)
