@@ -1,6 +1,6 @@
 import sys
 sys.path.append("..")
-from helper import time_func
+from helper import get_lines, time_func
 
 def generate_sums(lines: list):
     new_list = list(map(int, lines))
@@ -12,19 +12,18 @@ def generate_sums(lines: list):
         return sums
 
 def process():
-    with open("input.txt", "r") as file:
-        lines = file.readlines()
-        sums = generate_sums(lines)
-        increase_num = 0
+    lines = get_lines()
+    sums = generate_sums(lines)
+    increase_num = 0
 
-        for index in range(1, len(sums)):
-            previous_sum = sums[index - 1]
-            current_sum = sums[index]
+    for index in range(1, len(sums)):
+        previous_sum = sums[index - 1]
+        current_sum = sums[index]
 
-            if current_sum > previous_sum:
-                increase_num += 1
-        else:
-            print("Number of Sum Increases: ", increase_num)
+        if current_sum > previous_sum:
+            increase_num += 1
+    else:
+        print("Number of Sum Increases: ", increase_num)
 
 if __name__ == "__main__":
     time_func(process)
