@@ -50,6 +50,7 @@ Finally, this will be my only repo this year. Instead of having a repo for each 
 | 7    | Dec 7 - 08:25       | The Treachery of Whales |
 | 8    | Dec 8 - 02:46       | Seven Segment Search    |
 | 9    | Dec 9 - 01:38       | Smoke Basin             |
+| 10   | Dec 10 - 08:50      | Syntax Scoring          |
 
 ## Get Involved
 
