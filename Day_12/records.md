@@ -1,9 +1,9 @@
-# 
+# Passage Pathing
 
 | Part # | Change Summary<sup>1</sup>        | Date           | Time<sup>2</sup> |
 | :----: | :-------------------------------- | :------------: | :--------------: |
-| 1      | Initial Design                    | Dec 12 -  |  ms          |
-| 2      | Initial Design                    | Dec 12 -  |  ms          |
+| 1      | Stumped (Reddit Help)             | Dec 16 - 23:19 | 49.5 ms          |
+| 2      | Stumped (Reddit Help)             | Dec 16 - 23:29 | 1.7 s            |
 
 <sup>1</sup> This will clarify the change that was made to change the time metrics.
 
